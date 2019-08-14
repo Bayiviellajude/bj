@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family:new times roman;
+  padding: 10px;
+  background:white;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background:violet;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color:blue;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color:pink;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color:white;
+  color:brown;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color:white;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color:orange;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color:orange;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background:orange;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <img src="C:\Users\i5\Downloads/p3.jpeg" height="100%" width="100%" border="000%">
+  <h1>NV NETWORK</h1>
+  <p>Official NV network website</p>
+</div>
+
+<div class="topnav">
+  <a href="#">HOME</a>
+  <a href="#">CONTACT US</a>
+  <a href="#">ABOUT US</a>
+  <a href=>DATE&TIME</a>
+  <button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="demo"></p>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Welcome to NV network</h2>
+      <h3>The Future is Now</h3>
+      <img src="C:\Users\i5\Downloads/p4.jpg" height="100%" width="100%" border="000%">
+      <div class="fakeimg" style="height:200px;"></div>
+      <p><h2>We offer the following services:</h2>
+      <h3>
+      <ul>
+      <li><strong><p style="color:red;">Programming</p></strong>:We offer you the best of tutorial videos on programming and
+       also takes you through a step-by-step means of getting your idea into reality.</li></br>
+      <li><strong><p style="color:red;">Graphic Design</p></strong>:Are you a designer or you just want to make some cash out of it for some time? Are you a pro or a beginner?
+      Are you looking forward to learning more and sharing your thoughts with others like you? If your answer is yes then welcome to <font style="color:red;">NV NETWORK</font>
+      official website where we offer you great knowledge on graphic design to it fullest.We give you video lessons and also text form of
+      teachings in it's simplest form to help you with your job</li></br>
+      <li><strong><p style="color:red;">Online Marketing</p></strong>Do you have a business that you want to make a global awareness of but don't have the technical abilities?
+      WE are one of the best people you can trust to handle the online part of your business.</li></br>
+      <li><strong><p style="color:red;">Web development</p></strong>:Welcome to <font style="color:red;">NV NETWORK</font> where you can order a website to be created for you at a cool price.DO you want a private site for yourself
+      in the name of you or someone else but you can't code.Worry not for<font style="color:red;"> NV NETWORK</font> is here to help you out.</li></br>
+      <li><strong><p style="color:red;">Animations 2D/3D</p></strong>:You are the one who like making things look animated and not just that but also in the right manner
+      but don't know how to start then you are welcome to<font style="color:red;"> NV NETWORK</font> your only trusted source for your tutorials.You can thank us later.</li></br>
+      <li><strong><p style="color:red;">Hacking,Cracking & Penetration</p></strong>:Are you the good guy or the bad guy? Anyway we can't know but any information here is
+       for educational purpose only.Her on this site we give you tips and tricks to protect your machine and your own privacy.
+       with our tutorials you will never be left behind.We only hope you are the good guy.</h3></li></br>
+       <p>		Name:<input type="text" name="Name"><br><br>
+       		Age:<input type="text" name="Age"><br><br>
+       		Gender:<br>
+       <input type="text" placeholder="Email Address">
+       <input type="submit" id="submit" value="send me tutorials Updates">
+       		<input type="SuBmit" name="SuBmit" style="align-right"></p>
+      </head>
+      </h5></p>
+    </div>
+    <div class="card">
+      <h2>ABOUT US</h2>
+      <h5>INTRODUTION<h3 style="color:red;">ABOUT US</h3>
+      <p><font style="color:red;">NV NETWORK</font>, is a three man private company with knowledge on specified fields of IT
+       who are ready to enlighnten the world and share with it,our astonishing services.</br><p>
+        <a href=
+       "mailto:nvnetwork18@gmail.com">Send Email</a></br>
+      <p> Tap the link below to wathch us on youtube</p>
+       <a href="https://www.youtube.com/channel/UCSyFbixe8MA69fXuJE86X5A"target=_blank>WATCH NOW</a></br><p>
+         <p>
+      <li><a href="#">Privacy Policy</a></li>
+      <li><a href="#">Terms of Service</a></li>
+      <li><a href="#">Contacts</a></li>
+      </ul></h5>
+      <div class="fakeimg" style="height:200px;"></div>
+      <p></p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>ENTERTAINMENT</h2>
+      <div class="fakeimg" style="height:100px;">
+        <p>
+        <video width="300" height="150" controls>
+          <source src="C:\Users\i5\Desktop\songz\hippopz\Cardi B - Bodak Yellow [OFFICIAL MUSIC VIDEO].mp4" type="video/mp4"/>
+        </video><br>
+        <video width="300" height="150" controls>
+          <source src="C:\Users\i5\Desktop\songz\hippopz\French Montana - Unforgettable ft. Swae Lee - YouTube.mp4" type="video/mp4"/>
+        </video><br>
+        <video width="300" height="150" controls>
+          <source src="C:\Users\i5\Desktop\songz\hippopz\Omarion Ft. Chris Brown & Jhene Aiko - Post To Be (Official Video).mp4" type="video/mp4"/>
+        </video><br>
+        <video width="300" height="150" controls>
+          <source src="C:\Users\i5\Desktop\songz\hippopz\(41) Eminem feat. Kehlani - Nowhere Fast [UltraHD] (iHeart Music Awards 2018) + Em X DJ Khaled Interview - YouTube.mp4" type="video/mp4"/>
+        </video><br>
+        <audio controls>
+          <source src="C:\Users\i5\Desktop\songz\hippopz\_Khalid - Free Spirit _Audio_ - Duration_ 3_02_.mp3" type="audio/mp3"/>
+        </audio>
+        <audio controls>
+          <source src="C:\Users\i5\Desktop\songz\hippopz\_Rae Sremmurd - Black Beatles ft_ Gucci Mane.mp3" type="audio/mp3"/>
+        </audio>
+    </p>
+    <div class="card">
+      <h3>MEDIA</h3>
+      <div class="fakeimg"><p>FACEBOOK:@NV Network</p></div>
+      <div class="fakeimg"><p>TWITTER:@NV Network</p></div>
+      <div class="fakeimg"><p>INSTAGRAM:@NV Network</p></div>
+    </div>
+    <div class="card">
+      <h3>FOLLOW ME</h3>
+      <p>FACEBOOK</p>
+      <P>TWITTER</P>
+      <P>INSTAGRAM</P>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <P>
+    THANK YOU
+  </P>
+  <p>
+  </p>
+</div>
+</body>
+</html>
